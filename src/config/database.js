@@ -13,4 +13,15 @@ con.connect(function(err) {
     console.log("Conectado ao banco de dados");
 });
 
+function query(comamnd, params, method = 'query'){
+    return new Promise(function(resolve, reject){
+        con[method](comamnd, params, function(error, result){
+            if(error)
+                reject(error)
+            else
+                resolve(result)
+        });
+    });
+}u7
+
 export {con}; 
