@@ -2,7 +2,7 @@
     "id_usuario": 1,
     "nome": "Administrador",
     "email": "adm@adm.com.br",
-    "fome": "(17) 99999-9999",
+    "fone": "(17) 99999-9999",
     "end_logradouro": "Rua Amazonas",
     "end_numero": "1234",
     "end_bairro": "Centro",
@@ -11,16 +11,15 @@
     "end_cep": "15500000",
     "total": 36.90,
     "itens": [
-    {
+        {
             "id_produto": 1,
             "quantidade": 1,
             "valor_unitario": 24.90
-    },
-    {
-         "id_produto": 2,
-         "quantidade": 1,
-         "valor_unitario": 12.00
-    }
-
+        },
+        {
+            "id_produto": 2,
+            "quantidade": 1,
+            "valor_unitario": 12.00
+        }
     ]
 }
